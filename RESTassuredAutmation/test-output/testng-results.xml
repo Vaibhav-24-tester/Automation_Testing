@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-20T22:14:18 GMT-08:00" name="Default suite" finished-at="2025-02-20T22:14:24 GMT-08:00" duration-ms="6744">
+  <suite started-at="2025-02-22T21:00:16 GMT-08:00" name="Default suite" finished-at="2025-02-22T21:00:25 GMT-08:00" duration-ms="9764">
     <groups>
     </groups>
-    <test started-at="2025-02-20T22:14:18 GMT-08:00" name="Default test" finished-at="2025-02-20T22:14:24 GMT-08:00" duration-ms="6744">
-      <class name="Test.Soap_XMLRequest">
-        <test-method signature="soapXML_Request()[pri:0, instance:Test.Soap_XMLRequest@505fc5a4]" started-at="2025-02-20T22:14:18 GMT-08:00" name="soapXML_Request" finished-at="2025-02-20T22:14:24 GMT-08:00" duration-ms="6685" status="PASS">
+    <test started-at="2025-02-22T21:00:16 GMT-08:00" name="Default test" finished-at="2025-02-22T21:00:25 GMT-08:00" duration-ms="9764">
+      <class name="Test.GetandPostEx">
+        <test-method signature="Delete()[pri:0, instance:Test.GetandPostEx@25084a1e]" started-at="2025-02-22T21:00:16 GMT-08:00" name="Delete" finished-at="2025-02-22T21:00:19 GMT-08:00" duration-ms="2804" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- soapXML_Request -->
-      </class> <!-- Test.Soap_XMLRequest -->
+        </test-method> <!-- Delete -->
+        <test-method signature="Put()[pri:0, instance:Test.GetandPostEx@25084a1e]" started-at="2025-02-22T21:00:19 GMT-08:00" name="Put" finished-at="2025-02-22T21:00:19 GMT-08:00" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Put -->
+        <test-method signature="get_test()[pri:0, instance:Test.GetandPostEx@25084a1e]" started-at="2025-02-22T21:00:19 GMT-08:00" name="get_test" finished-at="2025-02-22T21:00:25 GMT-08:00" duration-ms="5069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_test -->
+        <test-method signature="patch()[pri:0, instance:Test.GetandPostEx@25084a1e]" started-at="2025-02-22T21:00:25 GMT-08:00" name="patch" finished-at="2025-02-22T21:00:25 GMT-08:00" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patch -->
+      </class> <!-- Test.GetandPostEx -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
